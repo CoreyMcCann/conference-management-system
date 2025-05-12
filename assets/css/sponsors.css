@@ -1,0 +1,97 @@
+.sponsor-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.sponsor-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sponsor-page .message {
+    text-align: center;
+    color: green;
+    margin: 20px;
+}
+
+.sponsor-page fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #fafafa;
+    margin: 0 auto 30px auto;
+    max-width: 600px;
+}
+
+.sponsor-page fieldset legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sponsor-page form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.sponsor-page .form-row {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+}
+
+.sponsor-page .form-row label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sponsor-page .form-row input[type="text"],
+.sponsor-page .form-row input[type="number"],
+.sponsor-page .form-row select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sponsor-page .submit-row {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 100%;
+    margin-top: 10px;
+}
+
+.sponsor-page table {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.sponsor-page table,
+.sponsor-page th,
+.sponsor-page td {
+    border: 1px solid #ddd;
+}
+
+.sponsor-page th,
+.sponsor-page td {
+    padding: 10px;
+    text-align: left;
+}
+
+.sponsor-page th {
+    background-color: #f2f2f2;
+}
+
+.sponsor-page .delete-link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
